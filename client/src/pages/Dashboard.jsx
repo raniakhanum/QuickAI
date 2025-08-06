@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Gem, Sparkles } from 'lucide-react'
 import { Protect, useAuth } from '@clerk/clerk-react'
-import Creationitem from '../components/Creationitem'
+import Creationitem from '../components/CreationItem'
 import axios from 'axios'
 
 axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
